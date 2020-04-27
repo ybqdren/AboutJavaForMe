@@ -1,0 +1,8 @@
+新建数据库stuManager
+create database  stuManager; 
+
+新建数据表 user_tbl
+ create table if not exists user_tbl(
+ id int PRIMARY KEY  AUTO_INCREMENT,
+ username varchar(50) NOT NULL ,
+ password varchar(50) NOT NULL);
